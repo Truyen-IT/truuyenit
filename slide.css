@@ -1,0 +1,58 @@
+
+.slide-content-left {
+    width: 100%;
+
+}
+.slide-content-left-top{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.slide-content-left-center{
+    position: absolute;
+    top: 40%; /* trên xuống 50% nằm giữa phần tử mẹ relative*/
+    display: flex;
+    justify-content: space-between; /*đẩy ra 2 bên*/
+    width: 100%;
+}
+.slide-content-left-truot{
+    position: relative;
+    overflow: hidden; /*Khi chiều cao của box không đủ chứa text, thì text bị tràn sẽ được dấu đi*/
+}
+.slide-content-left-center  i{
+    color: #333;
+    font-size: 32px;
+    background-color: white;
+    width: 25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    opacity: 0; /* thay đổi độ trong của hình đi chung dí hover 0 là mất luôn không hiện lên*/
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.slide-content-left:hover i {
+    opacity: 1;
+}
+.slide-content-left-top img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*nội dung hình không vừa khung sẽ được cắt lại cho vừa*/
+}
+.slide-content-left-top img{
+    position: absolute;
+}
+.slide-content-left-top a:nth-child(2) img{
+    transform: translateX(100%); /*cho hình hiển thị lên màn hình ngang qua*/
+}
+.slide-content-left-top a:nth-child(3) img{
+    transform: translateX(200%);
+}
+.slide-content-left-top a:nth-child(4) img{
+    transform: translateX(300%);
+}
+.slide-content-left-top a:nth-child(5) img{
+    transform: translateX(400%);
+}
