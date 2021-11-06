@@ -18,7 +18,7 @@
     
     .tena2 {
         color: rgb(9, 24, 241);
-        margin: 70px 0px 0px 0px;
+        margin: 15px 0px 0px 0px;
     }
     
     .tena1 {
@@ -124,7 +124,7 @@
     }
     
     .table {
-        box-shadow: 0 10px 20px 3px #e9cb2414;
+        box-shadow: 0 10px 20px 10px #00968814;
         cursor: pointer;
         transition: transform .5s;
         color: rgb(224, 247, 18);
